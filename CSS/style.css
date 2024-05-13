@@ -17,6 +17,11 @@ body{
     text-align: center;
 }
 
+.link-personalizado {
+    color: black; /* Defina a cor desejada */
+    text-decoration: none; /* Remova o sublinhado padrão */
+}
+
 .ladoalado{
     display:flex; 
     margin-left:100px;

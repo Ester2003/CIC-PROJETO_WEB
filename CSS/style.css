@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .open-sans {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 .hammersmith {
     font-family: 'Hammersmith One', sans-serif;
+    font-weight: bold;
 }
 
 body{ 

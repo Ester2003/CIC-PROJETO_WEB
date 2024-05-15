@@ -28,7 +28,7 @@ body{
 }
 
 .homelogo{
-    width: 600px; /* largura desejada */
+    width: 700px; /* largura desejada */
     height: 200px; /* altura desejada */
     object-fit: cover; /* opcional: ajustar a imagem para cobrir a área definida */
 }

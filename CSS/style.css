@@ -24,7 +24,7 @@ body{
 
 .ladoalado{
     display:flex; 
-    margin-left:100px;
+    margin-left:250px;
 }
 
 .homelogo{
@@ -53,6 +53,21 @@ body{
 
 .bemvindo{
     border-radius:20%;
-    width: 400px;
+    width: 500px;
     height: 400px;
+}
+
+.retangulo {
+    width: 400px; /* Largura do retângulo */
+    height: 400px; /* Altura do retângulo */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza o texto dentro do retângulo */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
+}
+
+.texto-retangulo {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    font-size: 20px;
 }

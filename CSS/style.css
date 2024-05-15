@@ -4,6 +4,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.open-sans_bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 .hammersmith {
@@ -27,10 +32,29 @@ body{
     margin-left:250px;
 }
 
+.botao_ladoalado{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
 .homelogo{
     width: 700px; /* largura desejada */
     height: 200px; /* altura desejada */
     object-fit: cover; /* opcional: ajustar a imagem para cobrir a área definida */
+}
+
+.otherpageslogo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.otherpageslogoimg{
+    width: 300px;
+    height: 300px; /* Adjust the size of the image as needed */
+    margin-right: 15px; /* Space between the image and the text */
 }
 
 .travessao{
@@ -70,4 +94,30 @@ body{
 .texto-retangulo {
     margin: 0; /* Remove a margem padrão do parágrafo */
     font-size: 20px;
+}
+
+.espaco_formulario{
+    width: 500px; /* Largura do retângulo */
+    height: 500px; /* Altura do retângulo */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza o texto dentro do retângulo */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
+    background-color: blue;
+    border-radius: 20%;
+}
+
+.espaco{
+    width:20px;
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
+    text-align: center; /* Optional, centers text inside the div */
 }

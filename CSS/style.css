@@ -161,6 +161,10 @@ body{
   box-shadow: none;
 }
 
+.espaco_botao_home{
+    width: 70px;
+}
+
 .espaco_botao{
     width:20px;
 }
@@ -170,4 +174,13 @@ body{
   width: 50%;
   border: none;
   padding: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the items */
+}
+
+.container img {
+  margin-right: 10px; /* Adds some space between the image and the text */
 }

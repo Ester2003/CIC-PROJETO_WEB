@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-.open-sans {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.open-sans_bold {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body{ 
+    font-family: 'Open Sans', sans-serif;;
+    align-content: center;
+    line-height: 1.5;
+    text-align: center;
+}
 
 .hammersmith {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bold;
 }
 
-body{ 
-    align-content: center;
-    line-height: 1.5;
-    text-align: center;
+.open-sans_bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
 .link-personalizado {
@@ -48,7 +44,7 @@ body{
 .otherpageslogo{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .otherpageslogoimg{
@@ -115,7 +111,7 @@ body{
 
 .heading {
   color: black;
-  padding-bottom: 2em;
+  padding-bottom: 2px;
   text-align: center;
   font-weight: bold;
 }

@@ -25,32 +25,39 @@ body{
 
 .ladoalado{
     display:flex; 
-    margin-left:250px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 250px;
 }
 
 .botao_ladoalado{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center; 
+    padding-right: 250px;
+    padding-left: 250px;
 }
 
 .homelogo{
     width: 700px; /* largura desejada */
     height: 200px; /* altura desejada */
     object-fit: cover; /* opcional: ajustar a imagem para cobrir a área definida */
+    padding: 20px;
 }
 
 .otherpageslogo{
-    display: flex;
-    align-items: center;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .otherpageslogoimg{
-    width: 300px;
-    height: 300px; /* Adjust the size of the image as needed */
-    margin-right: 15px; /* Space between the image and the text */
+    width: 210px;
+    height: 170px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Espaço entre a imagem e a navegação */
 }
 
 .travessao{
@@ -78,18 +85,18 @@ body{
 }
 
 .retangulo {
-    width: 400px; /* Largura do retângulo */
-    height: 500px; /* Altura do retângulo */
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center; /* Centraliza o texto dentro do retângulo */
-    padding: 10px; /* Espaçamento interno */
+    padding: 5px;
     box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
 }
 
 .texto-retangulo {
     margin: 0; /* Remove a margem padrão do parágrafo */
-    font-size: 20px;
+    height: 300px;
+    font-size: 22px;
+    padding: 5px 50px 10px 70px;
 }
 
 .form {
@@ -161,10 +168,6 @@ body{
   box-shadow: none;
 }
 
-.espaco_botao_home{
-    width: 70px;
-}
-
 .espaco_botao{
     width:20px;
 }
@@ -178,6 +181,7 @@ body{
 
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center; /* Vertically centers the items */
 }
 

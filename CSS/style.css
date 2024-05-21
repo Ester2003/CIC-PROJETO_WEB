@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 body{ 
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     align-content: center;
     line-height: 1.5;
     text-align: center;
@@ -45,6 +45,12 @@ body{
     height: 200px; /* altura desejada */
     object-fit: cover; /* opcional: ajustar a imagem para cobrir a área definida */
     padding: 20px;
+}
+
+.otherpagesheading {
+  align-items: center;
+  padding-left: 450px;
+  font-size: 50px;
 }
 
 .otherpageslogo{
@@ -183,8 +189,58 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center; /* Vertically centers the items */
+  padding-top: 20px;
 }
 
 .container img {
   margin-right: 10px; /* Adds some space between the image and the text */
+}
+
+.lowkey {
+  padding-top: 100px;
+}
+
+.lowkey .btn{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffde59;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.cursos{
+  align-items: space-between;
+  padding: 10px 100px;
+}
+.cursos .btn{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.cursos .btn1{
+  background-color: #ffde59;
+}
+
+.cursos .btn2{
+  background-color: red;
+}
+
+.cursos .btn3{
+  background-color: blue;
 }

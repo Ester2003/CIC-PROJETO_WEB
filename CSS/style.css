@@ -185,6 +185,17 @@ body{
   padding: 5px;
 }
 
+.blueorc{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: blue;
+  padding: 2.5em;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;

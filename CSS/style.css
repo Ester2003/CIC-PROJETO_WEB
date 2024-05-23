@@ -216,10 +216,14 @@ body{
 }
 
 .cursos{
-  align-items: space-between;
+  align-items: center;
   padding: 10px 100px;
 }
 .cursos .btn{
+  align-content: center;
+  width: 350px;
+  height: 125px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 2em;
   align-self: center;

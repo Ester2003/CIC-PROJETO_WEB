@@ -27,6 +27,7 @@ body{
     display:flex; 
     justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
     padding-right: 250px;
     padding-left: 250px;
 }
@@ -185,15 +186,37 @@ body{
   padding: 5px;
 }
 
+.sidetexto {
+  font-size: 25px;
+}
+
 .blueorc{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   gap: 10px;
   background-color: blue;
   padding: 2.5em;
   border-radius: 25px;
   transition: .4s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+}
+
+.blueorc .bnt {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20px;
+  width: 175px;
+  height: 75px;
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffde59;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
 
 .container {

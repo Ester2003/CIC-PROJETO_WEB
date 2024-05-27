@@ -18,6 +18,19 @@ body{
     font-weight: bolder;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.justified {
+    text-align: justify; /* Justifica o texto */
+    word-spacing: 2px;   /* Ajusta o espaçamento entre as palavras */
+    line-height: 1.6;    /* Ajusta o espaçamento entre as linhas */
+}
+
 .link-personalizado {
     color: black; /* Defina a cor desejada */
     text-decoration: none; /* Remova o sublinhado padrão */
@@ -187,10 +200,11 @@ body{
 }
 
 .sidetexto {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .blueorc{
+  width: 270px;
   display: flex;
   flex-direction:column;
   gap: 10px;

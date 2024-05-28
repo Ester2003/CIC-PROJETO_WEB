@@ -240,6 +240,23 @@ body{
   padding-top: 20px;
 }
 
+.container .btn{
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffde59;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
 .container img {
   margin-right: 10px; /* Adds some space between the image and the text */
 }
